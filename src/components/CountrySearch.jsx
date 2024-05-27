@@ -43,6 +43,7 @@ const CountrySearch = () => {
     setSearch(country.name.common);
     setSuggestions([]);
     setCountries([country]);
+    setSearch("");
   };
   return (
     <>

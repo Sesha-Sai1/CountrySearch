@@ -153,6 +153,11 @@ const CountrySearch = () => {
                         <p>
                           <b>Timezone = {country.timezones[0]}</b>
                         </p>
+                        <p>
+                          <a href={country.maps.googleMaps}>
+                            GoogleMapsLocation
+                          </a>
+                        </p>
                       </div>
                     </div>
                   );
